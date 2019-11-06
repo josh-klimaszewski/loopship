@@ -1,5 +1,6 @@
 import React from "react";
 import ToneInjector from "./ToneInjector";
+import Sequencer from "./Sequencer";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -10,13 +11,7 @@ function App() {
         if (!player) {
           return <p>loading....</p>;
         }
-        return (
-          <div className="App">
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-            </header>
-          </div>
-        );
+        return <Sequencer player={player} />;
       }}
     </ToneInjector>
   );

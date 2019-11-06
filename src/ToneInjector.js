@@ -12,7 +12,7 @@ const PlayerProvider = ({ children }) => {
         CH: "/sounds/Hats & Cymbals/HiHat Closed 001 Widened.wav"
       },
       () => {
-        console.log("buffers loaded", {player});
+        console.log("buffers loaded", { player });
         setPlayer(player);
       }
     ).toMaster();
