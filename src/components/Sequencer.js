@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Grid, NavBar, PlayButton } from "./components";
+import { Grid, NavBar, PlayButton } from "./";
 
 const steps = 16;
 const initialCellState = { triggered: false, activated: false };

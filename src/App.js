@@ -1,8 +1,7 @@
 import React from "react";
-import ToneInjector from "./ToneInjector";
-import Sequencer from "./Sequencer";
-import logo from "./logo.svg";
-import "./App.css";
+import "./styles/App.css";
+
+import { ToneInjector, Sequencer } from "./components";
 
 function App() {
   return (
